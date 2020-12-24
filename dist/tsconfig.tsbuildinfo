@@ -1,0 +1,86 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "affectsGlobalScope": true
+      },
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "../config/openweathermapconfig.json": {
+        "version": "495db4505b4dc2a7d370eddfd2badba306556007564339acb909bac0f101022f",
+        "signature": "a50e1f6305a7d42b3baaee3ebbf2a84a310ab977484bc22d664fdf5d532c77e3",
+        "affectsGlobalScope": true
+      },
+      "../src/openweatherapi/openweatherapi.ts": {
+        "version": "9c5142505b8f9c4695f7c5b14cee19c029271e2ee9b12f483e3fc7c4a08bc6b1",
+        "signature": "0f94ad946cdc407bb1d7e84bdf677f649c3678d035369092c1a72a80c160ad45",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "8dd28700e2d168583d04fa3e9138fe5c60ea8509b72bd45de23f584a57ccab70",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "resolveJsonModule": true,
+      "target": 1,
+      "module": 1,
+      "declaration": true,
+      "outDir": "./",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "incremental": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../src/index.ts": [
+        "../src/openweatherapi/openweatherapi.ts"
+      ],
+      "../src/openweatherapi/openweatherapi.ts": [
+        "../config/openweathermapconfig.json",
+        "../node_modules/axios/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts",
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../config/openweathermapconfig.json",
+      "../node_modules/axios/index.d.ts",
+      "../src/index.ts",
+      "../src/openweatherapi/openweatherapi.ts"
+    ]
+  },
+  "version": "4.1.2"
+}

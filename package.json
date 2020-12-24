@@ -1,0 +1,20 @@
+{
+  "name": "WindEnergyPowerPrediction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest --coverage",
+    "build": "tsc",
+    "typescript": "tsc --init",
+    "dev": "tsc && node ./dist/src/index.js",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

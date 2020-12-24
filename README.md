@@ -1,0 +1,3 @@
+# Wind Energy Power Prediction 🌬🍃
+
+This is a web application that shows the estimated wind energy that could be generated from the parameters like wind speed,wind direction and time of the day. The time series in the web app will monitor the estimated power generation for a time wind speed, wind direction. The training of the model will be done with Wind Turbine Scada Dataset 2018. The attributes in the dataset are [Date/Time, LV ActivePower (kW), Wind Speed (m/s), Theoretical_Power_Curve (KWh), Wind Direction (°)].User can use the time series of the web app to fetch the prime hours of production and hence can coordinate with the collaborators.
